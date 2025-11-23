@@ -13,7 +13,7 @@ llm = init_chat_model(
     temperature=0.5
 )
 
-st.title("🤖 Astronaut Chatbot Made By Mayukh Maity")
+st.title("🤖 Astronaut Chatbot")
 
 
 if "messages" not in st.session_state:
